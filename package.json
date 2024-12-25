@@ -1,0 +1,20 @@
+{
+  "name": "inetb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node index.js"
+  },
+  "author": "alexd",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "hbs": "^4.2.0",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.9"
+  }
+}
